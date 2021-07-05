@@ -9,6 +9,9 @@
 
 body {
   width: 1440px;
+  display: block;
+  margin: auto;
+  margin-top: 10%;
   background-color: hsl(0, 0%, 95%);
 }
 
@@ -27,6 +30,7 @@ h1 {
 
 p {
   color: hsla(0, 0%, 100%, 0.75);
+  height: 75%;
 }
 
 .container {
@@ -42,6 +46,14 @@ p {
   white-space: normal;
   display: flex;
   flex-direction: column;
+}
+
+button {
+  width: 70%;
+  height: 10%;
+  font-size: 1em;
+  border-radius: 20px;
+  border-color: white;
 }
 
 #sedans {
