@@ -1,24 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
 
-
-*{
-    width: 1440px;
-    margin: 0;
-    padding: 0;
-    font-size: 14px;
-    font-family: 'Lexend Deca', sans-serif;
+* {
+  font-size: 14px;
+  color: white;
+  font-family: "Lexend Deca", sans-serif;
 }
 
-img{
-    width: 64px;
-    height: 40px;
+body {
+  width: 1440px;
 }
 
-h1{
-    font-family: 'Big Shoulders Display', cursive
+img {
+  width: 64px;
+  height: 40px;
 }
 
+h1 {
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+}
+
+.card {
+  width: 250px;
+  height: 400px;
+  padding: 45px;
+  border: 1px solid;
+  white-space: normal;
+}
+
+#sedans {
+  background-color: hsl(31, 77%, 52%);
+}
+
+#suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+
+#luxury {
+  background-color: hsl(179, 100%, 13%);
+}
 
 .attribution {
   font-size: 11px;
@@ -27,6 +52,3 @@ h1{
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-
-
-
