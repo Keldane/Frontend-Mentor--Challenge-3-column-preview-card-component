@@ -41,7 +41,7 @@ p {
 
 .card {
   max-width: 200px;
-  min-width: 110px;
+  min-width: 130px;
   height: 400px;
   padding: 45px;
   white-space: normal;
@@ -144,5 +144,13 @@ button {
   #luxury {
     background-color: hsl(179, 100%, 13%);
     border-radius: 0 0 20px 20px;
+  }
+
+  .attribution {
+    font-size: 10px;
+  }
+
+  .attribution a {
+    font-size: 10px;
   }
 }
