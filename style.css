@@ -9,6 +9,7 @@
 
 body {
   width: 1440px;
+  background-color: hsl(0, 0%, 95%);
 }
 
 img {
@@ -19,18 +20,28 @@ img {
 h1 {
   font-family: "Big Shoulders Display", cursive;
   font-weight: bold;
+  font-size: 3.5em;
+  font-variant-caps: all-petite-caps;
+  margin-bottom: 0;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
 }
 
 .container {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card {
-  width: 250px;
+  width: 200px;
   height: 400px;
   padding: 45px;
-  border: 1px solid;
   white-space: normal;
+  display: flex;
+  flex-direction: column;
 }
 
 #sedans {
