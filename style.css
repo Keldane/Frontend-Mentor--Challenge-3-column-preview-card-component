@@ -112,7 +112,7 @@ button {
 
 /* Media Queries */
 
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   body {
     padding-top: 10px;
   }
